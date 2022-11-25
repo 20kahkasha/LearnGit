@@ -19,3 +19,9 @@ git restore 971f8ed683276adb9fd28bb83c269952facb7ae2		(restores this version and
 git stash			(puts all the work in backstage and can be used whenever necessary -> can be done after git add . )
 git stash pop			(pop stash files in real world where you can see them as they are staged again)
 git stash clear		(clears all the work stored in stash and cannot be recovered)
+git remote add origin https://github.com/20kahkasha/LearnGit.git    (this is used to attach a url with your project, origin is just the name of url)
+git push origin master    (origin is pushed in master branch)
+git branch feature        (new branch feature is created)
+git checkout feature    (head will be in feature branch and new commits will be added in this branch)
+git checkout -b [yourbranchname]    (here's a shortcut: if you want to create a new branch AND check it out at the same time, you can simply type git checkout -b [yourbranchname].
+)
