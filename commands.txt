@@ -1,0 +1,21 @@
+COMMAND LINE 
+ls		(to check all the folders present in current directory)
+ls -a			(show hidden files)
+mkdir project		(make new directory of any name, here project is made)
+cd project		(change directory to any of your choice, here directory is changed to project)
+touch names.txt		(creates a new file-> created names.txt)
+rm -rf .names.txt.swp		(deletes folder-> .names.txt.swp got deleted)
+vi names.txt			(make changes in files and then type :x to exit)
+cat names.txt			(displays files contents)
+
+
+GIT COMMANDS
+git init		(create a empty git repository )
+git status		(tells all the files staged, committed or not, basically if changes have been committed or not)
+git add .			(add all untracked files in staging area from where it can be committed)
+git add names.txt			(add folder names.txt for staging area)
+git commit -m "it is for displayint message only"			(it commits the changes into git)
+git restore 971f8ed683276adb9fd28bb83c269952facb7ae2		(restores this version and unstage all commits after that)
+git stash			(puts all the work in backstage and can be used whenever necessary -> can be done after git add . )
+git stash pop			(pop stash files in real world where you can see them as they are staged again)
+git stash clear		(clears all the work stored in stash and cannot be recovered)
